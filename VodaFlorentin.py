@@ -13,3 +13,10 @@ def generateListFromString(string):
       list.append(i)
    return list
 
+#3.3
+
+def uniques(n):
+   unik=set()
+   for e in n:
+      unik.add(e)
+   return unik
