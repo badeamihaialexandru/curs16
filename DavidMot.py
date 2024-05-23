@@ -26,4 +26,15 @@ def uniques(list):
     myset=set(list)
     print(myset)
 
-uniques([1,2,3,4,5,1,3,4])
+#uniques([1,2,3,4,5,1,3,4])
+
+#3.4 scrieti o functie care sa scrie lista unica intr-un fisier txt 
+# dati commit la schimbari in repositoryul global
+# creati pull request
+
+
+def listotxt(list):
+    with open ("curs_16/curs16/outputDavid.txt",'w') as file:
+        for elem in list:
+            file.write(elem)
+
