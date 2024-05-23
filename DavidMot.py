@@ -3,7 +3,8 @@
 
 def loadTxt(cale):
     with open (cale,"r") as file:
-        return(file)
+        continut=file.readlines
+        return(continut)
     
 #3.2 scrieti o functie generateListFromString() care primeste ca parametru un string si returneaza o lista pe baza acestuia. stringul va avea formatul (string,string,string)
 #dati commit la schimbari in repositoryul global
