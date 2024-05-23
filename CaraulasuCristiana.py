@@ -16,4 +16,14 @@ file_content = loadTxt(cale)
 def generateListFromString(string,separator):
     lista = string.split(separator)
     return lista
-print (generateListFromString('1,2,3,4',','))
+#print (generateListFromString('1,2,3,4',','))
+
+#3.3 scrieti o functie care sa se numeasca uniques() care primeste ca parametru o lista si returneaza o lista cu valori unice 
+
+def unique():
+    lista = ['1','2','2','5']
+    unica = set(lista)
+    return unica
+#print (unique())
+
+    
