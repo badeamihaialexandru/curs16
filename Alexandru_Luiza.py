@@ -11,4 +11,3 @@ def loadTxt(caletxt):
 def generateListFromString(string,separator):
     lista=string.split(separator)
     return lista
-
