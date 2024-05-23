@@ -26,4 +26,12 @@ def unique():
     return unica
 #print (unique())
 
+#3.4 scrieti o functie numita listToTxt care sa scrie lista unica intr-un fisier txt 
+
+def listToTxt():
+    lista = unique()
+    with open ("Curs14/curs16/lista_unica.txt",'w') as file:
+        unic = file.write(str(lista))
+    return unic
+#listToTxt()
     
