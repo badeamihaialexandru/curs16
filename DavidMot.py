@@ -15,4 +15,15 @@ def generateListFromString():
         list.append(i)
     print(list)
 
-generateListFromString()
+#generateListFromString()
+
+
+#3.3 scrieti o functie care sa se numeasca uniques() care primeste ca parametru o lista si returneaza o lista cu valori unice 
+#dati commit la schimbari in repositoryul global
+
+
+def uniques(list):
+    myset=set(list)
+    print(myset)
+
+uniques([1,2,3,4,5,1,3,4])
