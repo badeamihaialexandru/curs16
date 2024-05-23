@@ -5,3 +5,16 @@ def loadTxt(cale):
 
 continut = loadTxt('Curs14/logger.txt')
 print(continut)
+
+
+#    
+
+
+def uniques(lista):
+    unic=set()
+    for element in lista:
+        unic.add(element)
+    return unic
+
+
+    
