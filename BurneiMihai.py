@@ -7,7 +7,11 @@ continut = loadTxt('Curs14/logger.txt')
 print(continut)
 
 
-#    
+def generateListFromString(string):
+    lista=[]
+    for element in range(3):
+        lista.append(string)
+    return lista
 
 
 def uniques(lista):
