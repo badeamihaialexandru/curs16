@@ -7,3 +7,12 @@ def loadTxt(cale):
             print(row)
     
 loadTxt('loadTxt.csv')
+
+def generateListFromString(x):
+    list=[]
+    for i in x:
+        list.append(i)
+    return list
+
+print(generateListFromString('Mihai are mere'))
+
