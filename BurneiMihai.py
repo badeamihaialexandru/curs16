@@ -19,6 +19,4 @@ def uniques(lista):
     for element in lista:
         unic.add(element)
     return unic
-
-
-    
+#
