@@ -19,4 +19,10 @@ def uniques(lista):
     for element in lista:
         unic.add(element)
     return unic
-#
+
+
+def listToTxt(lista, cale):
+    lista_unice=list(set(lista))
+    with open(cale,'w') as file:
+        for i in lista_unice:
+            file.write(i)
