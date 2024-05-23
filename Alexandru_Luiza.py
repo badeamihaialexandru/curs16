@@ -23,7 +23,7 @@ def uniques(lista):
 # 3.4 scrieti o functie care sa scrie lista unica intr-un fisier txt 
 # dati commit la schimbari in repositoryul global
 # creati pull request
-def lista_in_txt(lista,caletxt):
+def listToTxt(lista,caletxt):
     with open(caletxt,'w') as file:
         for line in lista:
             file.write(f"{str(line)}\n")
