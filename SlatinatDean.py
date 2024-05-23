@@ -9,4 +9,10 @@ def generateListFromString(string):
     for nr in range(3):
         lista.append(string)
     return lista
-print(generateListFromString('Macarena'))
+# print(generateListFromString('Macarena'))
+
+def uniques():
+    lista=['Dean','Dean','Andrei','Andrei']
+    lista=set(lista)
+    return lista
+print(uniques())
