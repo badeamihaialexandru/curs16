@@ -20,3 +20,12 @@ def uniques(n):
    for e in n:
       unik.add(e)
    return unik
+
+
+#3.4
+
+def listToTxt(n):
+    with open('list.txt','w') as file:
+        unics=uniques(n)
+        for i in unics:
+            file.write(f'{i}\n')
