@@ -16,3 +16,9 @@ def generateListFromString(x):
 
 print(generateListFromString('Mihai are mere'))
 
+def uniques(y):
+    n=set(y)
+    return n
+
+list=[1,2,3,1,2,6,1,10,0,2,3,1,1,2,15,201,10,20,3]
+print(uniques(list))
