@@ -11,3 +11,11 @@ def loadTxt(caletxt):
 def generateListFromString(string,separator):
     lista=string.split(separator)
     return lista
+
+# 3.3 scrieti o functie care sa se numeasca uniques() care primeste ca parametru o lista si returneaza o lista cu valori unice 
+# dati commit la schimbari in repositoryul global
+def uniques(lista):
+    unic=set()
+    for element in lista:
+        unic.add(element)
+    return unic
