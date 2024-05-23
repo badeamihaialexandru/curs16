@@ -33,7 +33,7 @@ def uniques(list):
 # creati pull request
 
 
-def listotxt(list):
+def listToTxt(list):
     with open ("curs_16/curs16/outputDavid.txt",'w') as file:
         for elem in list:
             file.write(elem)
